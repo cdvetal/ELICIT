@@ -93,3 +93,5 @@ For each line, separated by spaces:
 ### Extra
 
 - There is some additional code for handling datasets with two chromossomes, where each invididual has two genetic operators and two genotypes. Dataset requires each individual to have an additional Genetic_Operator and LISP tree, then change variable "locktyp" to false in the code.
+
+<br />
