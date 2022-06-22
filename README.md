@@ -21,16 +21,16 @@ A. Cruz, P. Machado, F. Assunção, and A. Leitão, “ELICIT: Evolutionary Comp
 
 # Initialization:
 
-- Place folder of runs in the data folder
-- Each run must be in a folder named "run#", where # is the number of run (ex: run1, run2, run3, ...)
+- Place folder of runs in the data folder (file structure is depicted below, and examples are included in the project);
+- Each run must be in a folder named "run#", where # is the number of run (ex: run1, run2, run3, ...);
 - If the program doesn't run due to compatibility issues, try removing ",P3D" in this line of the code:
-ELICIT/setup(): size(1200, 650, P3D) -> size(1200, 650);
+ELICIT/setup(): size(1200, 650, P3D) -> size(1200, 650)
 
 Variables:
-- Set "filen" to name of directory of run(s) (ex: data/dataset1/)
-- Set "ifile" to number of first run folder (ex: 1 if first folder is named run1)
-- Set "sfile" to the number of runs for the program to read (ex: 30 if reading from run1 to run30)
-- fitmap can be switched if color mapping isn't ideal, or manipulated directly in Indiv.fitColor()
+- Set "filen" to name of directory of run(s) (ex: data/dataset1/);
+- Set "ifile" to number of first run folder (ex: 1 if first folder is named run1);
+- Set "sfile" to the number of runs for the program to read (ex: 30 if reading from run1 to run30);
+- fitmap can be switched if color mapping isn't ideal, or manipulated directly in Indiv.fitColor().
 
 
 # Mouse / Keyboard
@@ -43,7 +43,7 @@ RIGHT ARROW - Open visualization on mouse position
 
 # File Structure for generic data:
 
-For each line, separated by spaces
+For each line, separated by spaces:
  - Population_ID
  - Individual_ID
  - Genetic_Operator (-1: first population // 0: Copy // 1: Mutation // 2: Crossover // 3: Elitism Copy // 4: Crossover+Mutation)
@@ -60,7 +60,7 @@ First two lines describe the target:
 - Line 1 lists all the X coordinates of the graph that describes the target curve
 - Line 2 lists all the Y coordinates of the graph that describes the target curve
 
-For each line, separated by spaces
+For each line, separated by spaces:
  - Population_ID
  - Individual_ID
  - Genetic_Operator (-1: first population // 0: Copy // 1: Mutation // 2: Crossover // 3: Elitism Copy // 4: Crossover+Mutation)
