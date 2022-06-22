@@ -1,4 +1,4 @@
-# ELICIT
+# ELICIT - Evolutionary Computation Visualization
 
 ELICIT is a data visualization program for evolutionary algorithm data, developed using Processing. ELICIT is able to load and represent multiple evolutionary algorithm runs through heatmaps, showing how the fitness is distributed across populations over each generation, depicting the genetic operators and connections between ancestors and descendants.
 
