@@ -7,19 +7,19 @@ While ELICIT was developed with visualizations directed at specific datasets, it
 Below are instructions on how to use ELICIT, and a description of all its functionalities is available here: https://cdv.dei.uc.pt/elicit/
 
 
-# Reference
+### Reference
 A. Cruz, P. Machado, F. Assunção, and A. Leitão, “ELICIT: Evolutionary Computation Visualization,” in Genetic and Evolutionary Computation Conference, GECCO 2015, Madrid, Spain, July 11-15, 2015, Companion Material Proceedings, 2015, pp. 949-956. 
 
 
 -----------------------------------------------------------------------------------------------------------
 
 
-# Prerequisites
+## Prerequisites
 
 - Requires Processing (4.0) to run: https://processing.org/download
 
 
-# Initialization:
+## Initialization:
 
 - Place folder of runs in the data folder (file structure is depicted below, and examples are included in the project);
 - Each run must be in a folder named "run#", where # is the number of run (ex: run1, run2, run3, ...);
@@ -33,7 +33,7 @@ Variables:
 - fitmap can be switched if color mapping isn't ideal, or manipulated directly in Indiv.fitColor().
 
 
-# Mouse / Keyboard
+### Mouse / Keyboard
 
 LEFT MOUSE - Select individuals and populations
 RIGHT MOUSE - Drag to pan visualization
@@ -41,7 +41,7 @@ LEFT ARROW - Close visualization on mouse position
 RIGHT ARROW - Open visualization on mouse position
 
 
-# File Structure for generic data:
+## File Structure for generic data:
 
 For each line, separated by spaces:
  - Population_ID
@@ -54,7 +54,7 @@ For each line, separated by spaces:
 
 
 
-# File Structure for LISP trees that describe formulas:
+## File Structure for LISP trees that describe formulas:
 
 First two lines describe the target:
 - Line 1 lists all the X coordinates of the graph that describes the target curve
@@ -72,6 +72,6 @@ For each line, separated by spaces:
  - Line_Graph_Y_Coordinates (seperated by commas without spaces, a list of floats the describe the curve on a graph)
 
 
-# Extra
+### Extra
 
 - There is some additional code for handling datasets with two chromossomes, where each invididual has two genetic operators and two genotypes. Dataset requires each individual to have an additional Genetic_Operator and LISP tree, then change variable "locktyp" to false in the code.
