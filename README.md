@@ -40,6 +40,7 @@ RIGHT MOUSE - Drag to pan visualization
 LEFT ARROW - Close visualization on mouse position
 RIGHT ARROW - Open visualization on mouse position
 
+-----------------------------------------------------------------------------------------------------------
 
 ## File Structure for generic data:
 
