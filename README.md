@@ -2,6 +2,7 @@
 
 ELICIT is a data visualization program for evolutionary algorithm data, developed using Processing. ELICIT is able to load and represent multiple evolutionary algorithm runs through heatmaps, showing how the fitness is distributed (from black to blue) across populations (each column) over each generation (from left to right), depicting the genetic operators and connections between ancestors and descendants.
 
+
 ![ELICIT's interface](https://cdv.dei.uc.pt/wp-content/uploads/2020/05/ELICIT-interface.png)
 
 While ELICIT was developed with visualizations directed at specific datasets, its main views can be used by any generic evolutionary algorithm run. It was developed in the scope of my MSc thesis and there are no current plans to develop it further, so the code may be unoptimized.
