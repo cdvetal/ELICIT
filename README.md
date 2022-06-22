@@ -1,4 +1,3 @@
-<br />
 
 # ELICIT - Evolutionary Computation Visualization
 
@@ -8,13 +7,11 @@ ELICIT is a data visualization program for evolutionary algorithm data, develope
 
 While ELICIT was developed with visualizations directed at specific datasets, its main views can be used by any generic evolutionary algorithm run. It was developed in the scope of my MSc thesis and there are no current plans to develop it further, so the code may be unoptimized.
 
+Below are instructions on how to use ELICIT, and a description of all its functionalities is available here: https://cdv.dei.uc.pt/elicit/
+
 <br />
 
 ![ELICIT's interface](https://cdv.dei.uc.pt/wp-content/uploads/2020/05/ELICIT-interface.png)
-
-<br />
-
-Below are instructions on how to use ELICIT, and a description of all its functionalities is available here: https://cdv.dei.uc.pt/elicit/
 
 <br />
 
@@ -31,6 +28,7 @@ A. Cruz, P. Machado, F. Assunção, and A. Leitão, “ELICIT: Evolutionary Comp
 
 - Requires Processing (4.0) to run: https://processing.org/download
 
+<br />
 
 ## Initialization:
 
@@ -45,6 +43,7 @@ Variables:
 - Set "sfile" to the number of runs for the program to read (ex: 30 if reading from run1 to run30);
 - fitmap can be switched if color mapping isn't ideal, or manipulated directly in Indiv.fitColor().
 
+<br />
 
 ### Mouse / Keyboard
 
@@ -53,7 +52,11 @@ RIGHT MOUSE - Drag to pan visualization
 LEFT ARROW - Close visualization on mouse position
 RIGHT ARROW - Open visualization on mouse position
 
+<br />
+
 -----------------------------------------------------------------------------------------------------------
+
+<br />
 
 ## File Structure for generic data:
 
@@ -65,8 +68,7 @@ For each line, separated by spaces:
  - ID of Parent 2 (if Parent 2 doesn't exist: -1)
  - Fitness (Program will automatically detect if fitness is ascending or descending)
 
-
-
+<br />
 
 ## File Structure for LISP trees that describe formulas:
 
@@ -85,6 +87,7 @@ For each line, separated by spaces:
  - Tree (ex:   (* (- x1 x1) (* (+ x1 x1) (negexp x1)))  )
  - Line_Graph_Y_Coordinates (seperated by commas without spaces, a list of floats the describe the curve on a graph)
 
+<br />
 
 ### Extra
 
