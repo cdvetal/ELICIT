@@ -1,3 +1,4 @@
+<br />
 
 # ELICIT - Evolutionary Computation Visualization
 
